@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreTypeScript", "NetCoreTypeScript\NetCoreTypeScript.csproj", "{D23412DB-78DC-46ED-8B69-E6BD6E7D8DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23412DB-78DC-46ED-8B69-E6BD6E7D8DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23412DB-78DC-46ED-8B69-E6BD6E7D8DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23412DB-78DC-46ED-8B69-E6BD6E7D8DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23412DB-78DC-46ED-8B69-E6BD6E7D8DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D8BBD9-6993-4486-A480-B30FE89A0667}
+	EndGlobalSection
+EndGlobal
