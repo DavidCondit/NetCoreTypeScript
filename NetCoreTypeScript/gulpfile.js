@@ -5,13 +5,19 @@ Click here to learn more. http://go.microsoft.com/fwlink/?LinkId=518007
 */
 var gulp = require("gulp");
 var del = require("del");
+
+/* Create an objects with a scripts array of all the filepaths and file-match patterns of source script files. */
 var paths = {
-    scripts: ["scripts/**/*.js", "scripts/**/*.ts", "scripts/**/*.map"],
+    scripts: ["src/**/*.js", "src/**/*.ts", "src/**/*.map"],
 };
+
+/* Delete all files in wwwroot/dist. */
 gulp.task("clean", function () {
-    return del(["wwwroot/scripts/**/*"]);
+    return del(["wwwroot/dist/**/*"]);
 });
+
+/* Find all files matching paths.scripts and copy them to the wwwroot/dist directory. */
 gulp.task("default", function (done) {
-    gulp.src(paths.scripts).pipe(gulp.dest("wwwroot/scripts"));
+    gulp.src(paths.scripts).pipe(gulp.dest("wwwroot/dist"));
     done();
 });
