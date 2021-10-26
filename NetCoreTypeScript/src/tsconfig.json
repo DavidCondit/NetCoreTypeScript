@@ -5,6 +5,6 @@
     "sourceMap": true,
     "target": "es6"
   },
-  "files": [ "./app.ts" ],
+  "files": [ "./app.ts", "./data-usa.ts" ],
   "compileOnSave": true
 }
